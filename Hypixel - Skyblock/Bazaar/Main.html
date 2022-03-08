@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY Website</title>
+        <link rel="stylesheet" href="/Sign up/style.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Navbar Section -->
+
+
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/Main.html" id="navbar__logo">
+                    <i class="fas fa-gem"></i> LOGO</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/About/Main.html" class="navbar__links">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/Bazaar/Main.html" class="navbar__links">Bazaar</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/Auction House/Main.html" class="navbar__links">Auction House</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="/Sign up/Main.html" class="button">Sign up / Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Search Bar -->
+
+        <li class="navbar__item">
+            <a href="/Bazaar/Search Bar/Search.html" class="navbar__links">Search The Bazaar</a>
+        </li>
+
+        <!-- Hero Section -->
+        <p id="sellslimeball"></p>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+                    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+                    <link rel="preconnect" href="https://fonts.gstatic.com">
+                    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+        
+        <script>
+            var Buy_Wheat = 2.3;
+            var Buy_Carrot = 2.3;
+            var Buy_Potato = 2.3;
+            var Buy_Melon = 2;
+            var Buy_Sugar_Cane = 5;
+            var Buy_Pumkin = 8;
+            var Buy_Red_Mushroom = 12;
+            var Buy_Brown_Mushroom = 12;
+            var Buy_Sand = 4;
+            var Buy_Cactus = 10;
+            var Buy_Nether_Wart = 10;
+            
+            var Sell_Wheat = 1;
+            var Sell_Carrot = 1;
+            var Sell_Potato = 1;
+            var Sell_Melon = 0.5;
+            var Sell_Sugar_Cane = 2;
+            var Sell_Pumkin = 4;
+            var Sell_Red_Mushroom = 4;
+            var Sell_Brown_Mushroom = 4;
+            var Sell_Sand = 2;
+            var Sell_Cactus = 1;
+            var Sell_Nether_Wart = 3;
+            
+            var Buy_Coal = 4;
+            var Buy_Iron_Ingot = 5.5;
+            var Buy_Gold_Ingot = 6;
+            var Buy_Gravel = 6;
+            var Buy_Cobblestone = 3;
+            var Buy_Flint = 6;
+            var Buy_Packed_Ice = 9;
+            var Buy_Ice = 1;
+            
+            var Sell_Coal = 4;
+            var Sell_Iron_Ingot = 3;
+            var Sell_Gold_Ingot = 4;
+            var Sell_Gravel = 3;
+            var Sell_Cobblestone = 1;
+            var Sell_Flint = 4;
+            var Sell_Packed_Ice = 4.5;
+            var Sell_Ice = 0.5;
+            
+            var Buy_Rotten_Flesh = 8;
+            var Buy_Bone = 8;
+            var Buy_String = 10;
+            var Buy_Slimeball = 14;
+            var Buy_Gunpowder = 10;
+            var Buy_Spider_Eye = 12;
+            
+            var Sell_Rotten_Flesh = 2;
+            var Sell_Bone = 2;
+            var Sell_String = 3;
+            var Sell_Slimeball = 5;
+            var Sell_Gunpowder = 4;
+            var Sell_Spider_Eye = 3;
+            
+            var Buy_Oak_Wood = 5;
+            var Buy_Birch_Wood = 5;
+            var Buy_Spruce_Wood = 5;
+            var Buy_DarkOak_wood = 5;
+            var Buy_Acacia_Wood = 5;
+            var Buy_Jungle_Wood = 5;
+            var Buy_Raw_Fish = 20;
+            var Buy_Raw_Salmon = 30;
+            var Buy_Clownfish = 100;
+            var Buy_Pufferfish = 40;
+            
+            var Sell_Oak_Wood = 2;
+            var Sell_Birch_Wood = 2;
+            var Sell_Spruce_Wood = 2;
+            var Sell_DarkOak_wood = 2;
+            var Sell_Acacia_Wood = 2;
+            var Sell_Jungle_Wood = 2;
+            var Sell_Raw_Fish = 6;
+            var Sell_Raw_Salmon = 10;
+            var Sell_Clownfish = 20;
+            var Sell_Pufferfish = 15;
+            
+            var Sell_Raw_Beef = 4;
+            var Sell_Leather = 3;
+            var Sell_Raw_Porkchop = 5;
+            var Sell_Rabbit_Hide = 5;
+            var Sell_Rabbits_Foot = 5;
+            var Sell_Raw_Rabbit = 4;
+            var Sell_Mutton = 5;
+            var Sell_Feather = 3;
+            
+            var Sell_Hard_Stone = 1;
+            var Sell_Netherrack = 1;
+            var Sell_End_Stone = 2;
+            var Sell_Snow_Block = 4;
+            var Sell_Mithril = 10;
+            var Sell_Titanium =20;
+            var Sell_Starfall = 15;
+            var Sell_Treasurite = 5000;
+            var Sell_Rough_Ruby_Gemstone = 4;
+            var Sell_Rough_Jasper_Gemstone = 4;
+            var Sell_Rough_Amethyst_Gemstone = 4;
+            var Sell_Rough_Sapphire_Gemstone = 4;
+            var Sell_Rough_Topaz_Gemstone = 4;
+            var Sell_Rough_Amber_Gemstone = 4;
+            var Sell_Rough_Jade_Gemstone = 4;
+            var Sell_Diamond = 8;
+            var Sell_Lapis = 1;
+            var Sell_Emerald = 6;
+            var Sell_Redstone = 1;
+            var Sell_Nether_Quartz = 4;
+            var Sell_Obsidian = 7;
+            var Sell_Glowstone_Dust = 2;
+            
+            var Sell_Ender_Pearl = 7;
+            var Sell_Ghast_Tear = 16;
+            var Sell_Blaze_Rod = 9;
+            var Sell_Revenant_Flesh = 1;
+            var Sell_Tarantula_Web = 1;
+            var Sell_Wolf_Tooth = 1;
+            var Sell_Tasty_Cheese = 500;
+            
+            var Sell_Prismarine_Shard = 5;
+            var Sell_Prismarine_Crystal = 5;
+            var Sell_Clay = 3;
+            var Sell_Sponge = 50;
+            var Sell_Lily_Pad = 10;
+            var Sell_Ink_Sack = 2;
+
+            document.getElementById("buyacaciawood").innerHTML = Buy_Acacia_Wood;
+            document.getElementById("buybirchwood").innerHTML = Buy_Birch_Wood;
+            document.getElementById("buybone").innerHTML = Buy_Bone;
+            document.getElementById("buybrownmushroom").innerHTML = Buy_Brown_Mushroom;
+            document.getElementById("buycactus").innerHTML = Buy_Cactus;
+            document.getElementById("buyclownfish").innerHTML = Buy_Clownfish;
+            document.getElementById("buycoal").innerHTML = Buy_Coal;
+            document.getElementById("buycobblestone").innerHTML = Buy_Cobblestone;
+            document.getElementById("buydarkoakwood").innerHTML = Buy_DarkOak_wood;
+            document.getElementById("buyflint").innerHTML = Buy_Flint;
+            document.getElementById("buygoldingot").innerHTML = Buy_Gold_Ingot;
+            document.getElementById("buygravel").innerHTML = Buy_Gravel;
+            document.getElementById("buygunpowder").innerHTML = Buy_Gunpowder;
+            document.getElementById("buyice").innerHTML = Buy_Ice;
+            document.getElementById("buyironingot").innerHTML = Buy_Iron_Ingot;
+            document.getElementById("buyjunglewood").innerHTML = Buy_Jungle_Wood;
+            document.getElementById("buymelon").innerHTML = Buy_Melon;
+            document.getElementById("buynetherwart").innerHTML = Buy_Nether_Wart;
+            document.getElementById("buyoakwood").innerHTML = Buy_Oak_Wood;
+            document.getElementById("buypackedice").innerHTML = Buy_Packed_Ice;
+            document.getElementById("buypotato").innerHTML = Buy_Potato;
+            document.getElementById("buypufferfish").innerHTML = Buy_Pufferfish;
+            document.getElementById("buypumkin").innerHTML = Buy_Pumkin;
+            document.getElementById("buyrawfish").innerHTML = Buy_Raw_Fish;
+            document.getElementById("buyrawsalmon").innerHTML = Buy_Raw_Salmon;
+            document.getElementById("buyredmushroom").innerHTML = Buy_Red_Mushroom;
+            document.getElementById("buyrottenflesh").innerHTML = Buy_Rotten_Flesh;
+            document.getElementById("buysand").innerHTML = Buy_Sand;
+            document.getElementById("buyslimeball").innerHTML = Buy_Slimeball;
+            document.getElementById("buyspidereye").innerHTML = Buy_Spider_Eye;
+            document.getElementById("buysprucewood").innerHTML = Buy_Spruce_Wood;
+            document.getElementById("buystring").innerHTML = Buy_String;
+            document.getElementById("buysugarcane").innerHTML = Buy_Sugar_Cane;
+            document.getElementById("buywheat").innerHTML = Buy_Wheat;
+            document.getElementById("sellacaciawood").innerHTML = Sell_Acacia_Wood
+            document.getElementById("sellbirchwood").innerHTML = Sell_Birch_Wood
+            document.getElementById("sellbone").innerHTML = Sell_Bone
+            document.getElementById("sellbrownmushroom").innerHTML = Sell_Brown_Mushroom
+            document.getElementById("sellcactus").innerHTML = Sell_Cactus
+            document.getElementById("sellcarrot").innerHTML = Sell_Carrot
+            document.getElementById("sellclownfish").innerHTML = Sell_Clownfish
+            document.getElementById("sellcoal").innerHTML = Sell_Coal
+            document.getElementById("sellcobblestone").innerHTML = Sell_Cobblestone
+            document.getElementById("selldarkoakwood").innerHTML = Sell_DarkOak_wood
+            document.getElementById("sellflint").innerHTML = Sell_Flint
+            document.getElementById("sellgoldingot").innerHTML = Sell_Gold_Ingot
+            document.getElementById("sellgravel").innerHTML = Sell_Gravel
+            document.getElementById("sellgunpowder").innerHTML = Sell_Gunpowder
+            document.getElementById("sellice").innerHTML = Sell_Ice
+            document.getElementById("sellironingot").innerHTML = Sell_Iron_Ingot
+            document.getElementById("selljunglewood").innerHTML = Sell_Jungle_Wood
+            document.getElementById("sellmelon").innerHTML = Sell_Melon
+            document.getElementById("sellnetherwart").innerHTML = Sell_Nether_Wart
+            document.getElementById("selloakwood").innerHTML = Sell_Oak_Wood
+            document.getElementById("sellpackedice").innerHTML = Sell_Packed_Ice
+            document.getElementById("sellpotato").innerHTML = Sell_Potato
+            document.getElementById("sellpufferfish").innerHTML = Sell_Pufferfish
+            document.getElementById("sellpumkin").innerHTML = Sell_Pumkin
+            document.getElementById("sellrawfish").innerHTML = Sell_Raw_Fish
+            document.getElementById("sellrawsalmon").innerHTML = Sell_Raw_Salmon
+            document.getElementById("sellredmushroom").innerHTML = Sell_Red_Mushroom
+            document.getElementById("sellrottenflesh").innerHTML = Sell_Rotten_Flesh
+            document.getElementById("sellsand").innerHTML = Sell_Sand
+            document.getElementById("sellslimeball").innerHTML = Sell_Slimeball
+            document.getElementById("sellspidereye").innerHTML = Sell_Spider_Eye
+            document.getElementById("sellsprucewood").innerHTML = Sell_Spruce_Wood
+            document.getElementById("sellstring").innerHTML = Sell_String
+            document.getElementById("sellsugarcane").innerHTML = Sell_Sugar_Cane
+            document.getElementById("sellwheat").innerHTML = Sell_Wheat
+            document.getElementById("sellrawbeef").innerHTML = Sell_Raw_Beef
+            document.getElementById("sellleather").innerHTML = Sell_Leather
+            document.getElementById("sellrawporkchop").innerHTML = Sell_Raw_Porkchop
+            document.getElementById("sellrabbithide").innerHTML = Sell_Rabbit_Hide
+            document.getElementById("sellrabbitfoot").innerHTML = Sell_Rabbits_Foot
+            document.getElementById("sellrawrabbit").innerHTML = Sell_Raw_Rabbit
+            document.getElementById("sellmutton").innerHTML = Sell_Mutton
+            document.getElementById("sellfeather").innerHTML = Sell_Feather
+            document.getElementById("sellhardstone").innerHTML = Sell_Hard_Stone
+            document.getElementById("sellnetherrack").innerHTML = Sell_Netherrack
+            document.getElementById("sellendstone").innerHTML = Sell_End_Stone
+            document.getElementById("sellsnowblock").innerHTML = Sell_Snow_Block
+            document.getElementById("sellmithril").innerHTML = Sell_Mithril
+            document.getElementById("selltitanium").innerHTML = Sell_Titanium
+            document.getElementById("sellstarfall").innerHTML = Sell_Starfall
+            document.getElementById("selltreasurite").innerHTML = Sell_Treasurite
+            document.getElementById("sellroughtopazgemston").innerHTML = Sell_Rough_Topaz_Gemstone
+            document.getElementById("sellroughsapphiregemstone").innerHTML = Sell_Rough_Sapphire_Gemstone
+            document.getElementById("sellroughrubygemstone").innerHTML = Sell_Rough_Ruby_Gemstone
+            document.getElementById("sellroughjaspergemstone").innerHTML = Sell_Rough_Jasper_Gemstone
+            document.getElementById("sellroughjadegemstone").innerHTML = Sell_Rough_Jade_Gemstone
+            document.getElementById("sellroughamethystgemstone").innerHTML = Sell_Rough_Amethyst_Gemstone
+            document.getElementById("sellroughambergemstone").innerHTML = Sell_Rough_Amber_Gemstone
+            document.getElementById("selldiamond").innerHTML = Sell_Diamond
+            document.getElementById("selllapis").innerHTML = Sell_Lapis
+            document.getElementById("sellemerald").innerHTML = Sell_Emerald
+            document.getElementById("sellredstone").innerHTML = Sell_Redstone
+            document.getElementById("sellnetherquartz").innerHTML = Sell_Nether_Quartz
+            document.getElementById("sellobsidian").innerHTML = Sell_Obsidian
+            document.getElementById("sellglowstonedust").innerHTML = Sell_Glowstone_Dust
+            document.getElementById("sellenderpearl").innerHTML = Sell_Ender_Pearl
+            document.getElementById("sellghasttear").innerHTML = Sell_Ghast_Tear
+            document.getElementById("sellblazerod").innerHTML = Sell_Blaze_Rod
+            document.getElementById("sellrevenantflesh").innerHTML = Sell_Revenant_Flesh
+            document.getElementById("selltarantulaweb").innerHTML = Sell_Tarantula_Web
+            document.getElementById("sellwolftooth").innerHTML = Sell_Wolf_Tooth
+            document.getElementById("selltastycheese").innerHTML = Sell_Tasty_Cheese
+            document.getElementById("sellprismarineshard").innerHTML = Sell_Prismarine_Shard
+            document.getElementById("sellprismarinecrystal").innerHTML = Sell_Prismarine_Crystal
+            document.getElementById("sellclay").innerHTML = Sell_Clay
+            document.getElementById("sellsponge").innerHTML = Sell_Sponge
+            document.getElementById("selllilypad").innerHTML = Sell_Lily_Pad
+            document.getElementById("sellinksack").innerHTML = Sell_Ink_Sack
+        </script>
+    </body>
+</html>
